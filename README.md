@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Creating fake API
+In terminal-npm install json-server
+In script in package.json add "server": "json-server --watch data/questions.json --port 9050"
+In terminal-npm run server
+
 ### `npm start`
 
 Runs the app in the development mode.\
